@@ -43,7 +43,7 @@
                 "face": "Hack Nerd Font"
             },
             "opacity": 0,
-            "startingDirectory": "C:\\Users\\$env:UserName\\Git",
+            "startingDirectory": "~",
             "useAcrylic": true
         },
         "list": 
