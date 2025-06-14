@@ -1,3 +1,26 @@
+{
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "remote.SSH.remotePlatform": {
+        "utls1": "linux",
+        "utlp1": "linux",
+        "mgr1": "linux",
+        "ux-ansp1": "linux",
+        "ux-anss1": "linux"
+    },
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.wordWrap": "on",
+    "application.shellEnvironmentResolutionTimeout": 60,
+    "redhat.telemetry.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.folders.color": "#fdd835",
+    "material-icon-theme.activeIconPack": "angular",
+    "material-icon-theme.hidesExplorerArrows": false,
+
 "better-comments.tags": [
     {
       "tag": "!",
@@ -72,3 +95,4 @@
       "backgroundColor": "transparent"
     }
   ]
+}
