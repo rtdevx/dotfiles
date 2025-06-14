@@ -1,0 +1,16 @@
+Host ux-anss1
+  HostName anss1
+  User ansible
+  IdentityFile ~/.ssh/id_ansible
+
+Host ux-ansp1
+  HostName ansp1
+  User ansible
+  IdentityFile ~/.ssh/id_ansible
+
+Host github.com
+IdentityFile ~/.ssh/id_rsa_git
+Host skynetx.uk
+IdentityFile ~/.ssh/id_ed25519
+Host *
+StrictHostKeyChecking no
