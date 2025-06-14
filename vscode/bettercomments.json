@@ -22,6 +22,7 @@
     "material-icon-theme.hidesExplorerArrows": false,
 
 "better-comments.tags": [
+  
     {
       "tag": "!",
       "color": "#FF2D00",
@@ -50,25 +51,25 @@
       "tag": "todo:",
       "color": "#000000",
       "strikethrough": false,
-      "backgroundColor": "#ffff00"
+      "backgroundColor": "#f2f28a"
     },
     {
       "tag": "note:",
       "color": "#000000",
       "strikethrough": false,
-      "backgroundColor": "#DF38FF"
+      "backgroundColor": "#E5DACA"
     },
     {
       "tag": "hack:",
       "color": "#000000",
       "strikethrough": false,
-      "backgroundColor": "#FF8C00"
+      "backgroundColor": "#FFC300"
     },
     {
       "tag": "fix:",
       "color": "#000000",
       "strikethrough": false,
-      "backgroundColor": "#FF2D00"
+      "backgroundColor": "#F65353"
     },
     {
       "tag": "optimize:",
