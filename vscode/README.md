@@ -1,4 +1,4 @@
-### Settings
+### VSCode Settings
 
 1. Enable minimap
 2. Add theme extension 
@@ -37,18 +37,4 @@
 - pdf
 - rainbow-csv
 - better-comments
-
-#### Better Comments options:
-
-- !
-- ?
-- //
-- *
-- TODO:
-- NOTE:
-- HACK:
-- FIX:
-- OPTIMIZE:
-- @CRITICAL
-- @HIGH
-- @LOW
+- open-markdown-preview
