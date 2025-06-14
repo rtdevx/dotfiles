@@ -8,11 +8,11 @@
 	- Night Owl
 3. Change cursor blinking (set to "expand")
 
-![[gh_settings_blink.png]]
+![[./assets/gh_settings_blink.png]]
 
 4. Cursor Smooth Caret Animation
 
-![[gh_settings_cursor_smooth.png]]
+![[./assets/gh_settings_cursor_smooth.png]]
 
 5. Enable Word Wrap in Settings (set to "on")
 6. Ensure Bracket Pair Colorization: Enabled
