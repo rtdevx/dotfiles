@@ -13,10 +13,9 @@
     "application.shellEnvironmentResolutionTimeout": 60,
     "redhat.telemetry.enabled": false,
     "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.folders.theme": "specific",
     "material-icon-theme.folders.color": "#98c379",
-    "material-icon-theme.activeIconPack": "angular",
-    "material-icon-theme.hidesExplorerArrows": false,
+    "material-icon-theme.activeIconPack": "none",
 
 "better-comments.tags": [  
   
@@ -92,5 +91,9 @@
       "strikethrough": false,
       "backgroundColor": "transparent"
     }
-  ]
+  ],
+  "material-icon-theme.logLevel": "error",
+  "material-icon-theme.opacity": 0.75,
+  "material-icon-theme.saturation": 0.75,
+  "material-icon-theme.hidesExplorerArrows": true
 }
