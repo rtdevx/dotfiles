@@ -3,9 +3,6 @@
     "git.confirmSync": false,
     "git.autofetch": true,
     "remote.SSH.remotePlatform": {
-        "utls1": "linux",
-        "utlp1": "linux",
-        "mgr1": "linux",
         "ux-ansp1": "linux",
         "ux-anss1": "linux"
     },
@@ -21,7 +18,7 @@
     "material-icon-theme.activeIconPack": "angular",
     "material-icon-theme.hidesExplorerArrows": false,
 
-"better-comments.tags": [
+"better-comments.tags": [  
   
     {
       "tag": "!",
