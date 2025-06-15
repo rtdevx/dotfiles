@@ -102,5 +102,6 @@
   "material-icon-theme.opacity": 0.75,
   "material-icon-theme.saturation": 0.75,
   "material-icon-theme.hidesExplorerArrows": true,
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "editor.overtypeCursorStyle": "line"
 }
