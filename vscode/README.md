@@ -1,4 +1,20 @@
-### VSCode Settings
+### Better Comments options:
+
+- !
+- ?
+- //
+- \*
+- todo:
+- note:
+- info:
+- hack:
+- fix:
+- optimize:
+- @critical
+- @high
+- @low
+
+## VSCode Settings
 
 1. Enable minimap
 2. Add theme extension 

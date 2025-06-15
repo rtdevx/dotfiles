@@ -47,14 +47,20 @@
       "tag": "todo:",
       "color": "#000000",
       "strikethrough": false,
-      "backgroundColor": "#f2f28a"
+      "backgroundColor": "#F9E79F"
     },
     {
       "tag": "note:",
       "color": "#000000",
       "strikethrough": false,
-      "backgroundColor": "#E5DACA"
+      "backgroundColor": "#E8E8E8"
     },
+    {
+      "tag": "info:",
+      "color": "#000000",
+      "strikethrough": false,
+      "backgroundColor": "#AED6F1"
+    },    
     {
       "tag": "hack:",
       "color": "#000000",
