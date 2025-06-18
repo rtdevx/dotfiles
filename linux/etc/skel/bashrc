@@ -118,7 +118,7 @@ fi
 
 # Starship Prompt
 
-eval "$(starship init zsh)"
+eval "$(starship init bash)"
 
 # Custom Aliases
 
