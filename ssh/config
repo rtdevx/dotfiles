@@ -8,6 +8,16 @@ Host ux-ansp1
   User ansible
   IdentityFile ~/.ssh/id_ansible
 
+Host ux-mgrs1
+  HostName mgrs1
+  User k3s
+  IdentityFile ~/.ssh/id_k3s
+
+Host ux-mgrp1
+  HostName mgrp1
+  User k3s
+  IdentityFile ~/.ssh/id_k3s
+
 Host github.com
 IdentityFile ~/.ssh/id_rsa_git
 Host skynetx.uk
