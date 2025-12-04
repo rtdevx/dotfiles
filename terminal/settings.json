@@ -42,7 +42,7 @@
             {
                 "face": "Hack Nerd Font"
             },
-            "opacity": 0,
+            "opacity": 95,
             "startingDirectory": "~",
             "useAcrylic": true
         },
