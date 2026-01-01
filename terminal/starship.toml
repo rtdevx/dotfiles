@@ -10,6 +10,9 @@ $all[╰─](119)[➤](119)$character"""
 success_symbol = ''
 error_symbol = ''
 
+[font]
+family = "Hack Nerd Font"
+
 # ---
 
 [os]
