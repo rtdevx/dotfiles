@@ -2,32 +2,31 @@
 
 add_newline = true
 command_timeout = 1000
-format = """[╭╴](119)$env_var$os$username$hostname$kubernetes$directory$git_branch$git_status\
-$all[╰─](119)[➤](119)$character"""
+
+format = """$env_var$os$username$hostname$kubernetes$directory$git_branch$git_status\
+$all$character"""
 
 # Drop ugly default prompt characters
 [character]
 success_symbol = ''
 error_symbol = ''
 
-[font]
-family = "Hack Nerd Font"
-
-# ---
-
+# ------------------------------------------------------------
+# OS SYMBOLS (corrected Nerd Font icons)
+# ------------------------------------------------------------
 [os]
-format = '[$symbol](bold white) '   
+format = '[$symbol](bold white) '
 disabled = false
 
 [os.symbols]
-Windows = ''
-Arch = '󰣇'
-Ubuntu = ''
-Macos = '󰀵'
+Windows = ''   # Windows logo (correct)
+Arch = ''      # Arch Linux logo (correct)
+Ubuntu = ''    # Ubuntu logo (correct)
+Macos = ''     # macOS logo (correct)
 
-# ---
-
-# Shows the username
+# ------------------------------------------------------------
+# Username
+# ------------------------------------------------------------
 [username]
 style_user = 'white bold'
 style_root = 'black bold'
@@ -35,30 +34,37 @@ format = '[$user]($style) '
 disabled = false
 show_always = true
 
-# Shows the hostname
+# ------------------------------------------------------------
+# Hostname
+# ------------------------------------------------------------
 [hostname]
 ssh_only = false
 format = 'on [$hostname](bold yellow) '
 disabled = false
 
-# Shows current directory
+# ------------------------------------------------------------
+# Directory
+# ------------------------------------------------------------
 [directory]
 truncation_length = 1
 truncation_symbol = '…/'
-home_symbol = '󰋜 ~'
+home_symbol = ' ~'
 read_only_style = '197'
 read_only = '  '
 format = 'at [$path]($style)[$read_only]($read_only_style) '
 
-# Shows current git branch
+# ------------------------------------------------------------
+# Git Branch
+# ------------------------------------------------------------
 [git_branch]
 symbol = ' '
 format = 'via [$symbol$branch]($style)'
-# truncation_length = 4
 truncation_symbol = '…/'
 style = 'bold green'
 
-# Shows current git status
+# ------------------------------------------------------------
+# Git Status
+# ------------------------------------------------------------
 [git_status]
 format = '[$all_status$ahead_behind]($style) '
 style = 'bold green'
@@ -71,16 +77,19 @@ behind = '⇣${count}'
 stashed = ' '
 modified = ' '
 staged = '[++\($count\)](green)'
-renamed = '襁 '
+renamed = ' '
 deleted = ' '
 
-# Shows kubernetes context and namespace
+# ------------------------------------------------------------
+# Kubernetes
+# ------------------------------------------------------------
 [kubernetes]
-format = 'via [󱃾 $context\($namespace\)](bold purple) '
+format = 'via [ $context\($namespace\)](bold purple) '
 disabled = false
 
-# ---
-
+# ------------------------------------------------------------
+# Disable unused modules
+# ------------------------------------------------------------
 [vagrant]
 disabled = true
 
@@ -101,3 +110,9 @@ disabled = true
 
 [terraform]
 disabled = true
+
+# ------------------------------------------------------------
+# Font configuration (ensures Starship uses the correct Nerd Font)
+# ------------------------------------------------------------
+[font]
+family = "Hack Nerd Font"
