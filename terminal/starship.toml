@@ -3,8 +3,8 @@
 add_newline = true
 command_timeout = 1000
 
-format = """$env_var$os$username$hostname$kubernetes$directory$git_branch$git_status\
-$all$character"""
+format = """[╭╴](119)$env_var$os$username$hostname$kubernetes$directory$git_branch$git_status\
+$all[╰─](119)[➤](119)$character"""
 
 # Drop ugly default prompt characters
 [character]
