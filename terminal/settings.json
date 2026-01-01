@@ -5,10 +5,7 @@
   "alwaysShowNotificationIcon": false,
   "copyFormatting": "none",
   "copyOnSelect": true,
-
-  // Default profile: PowerShell 7
   "defaultProfile": "{aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee}",
-
   "keybindings": [
     {
       "id": "Terminal.CopyToClipboard",
@@ -27,13 +24,11 @@
       "keys": "alt+shift+d"
     }
   ],
-
   "newTabMenu": [
     {
       "type": "remainingProfiles"
     }
   ],
-
   "profiles": {
     "defaults": {
       "colorScheme": "ayu",
@@ -48,7 +43,6 @@
     },
     "list": [
       {
-        // PowerShell 7 (pwsh)
         "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
         "font": {
           "face": "Hack Nerd Font"
@@ -59,7 +53,6 @@
         "opacity": 50
       },
       {
-        // Windows PowerShell (legacy)
         "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
         "font": {
           "face": "Hack Nerd Font"
@@ -95,7 +88,6 @@
       }
     ]
   },
-
   "schemes": [
     {
       "background": "#282C34",
@@ -144,7 +136,6 @@
       "yellow": "#E7C547"
     }
   ],
-
   "themes": [],
   "useAcrylicInTabRow": true
 }
