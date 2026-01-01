@@ -94,7 +94,7 @@ disabled = false
 disabled = true
 
 [docker_context]
-disabled = true
+disabled = false
 
 [helm]
 disabled = true
@@ -103,10 +103,10 @@ disabled = true
 disabled = true
 
 [nodejs]
-disabled = true
+disabled = false
 
 [ruby]
 disabled = true
 
 [terraform]
-disabled = true
+disabled = false
